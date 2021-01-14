@@ -24,15 +24,13 @@
   display: flex;
   justify-content: space-between;
   width: 100%;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-content: space-between;
 }
-
-.cards p {
-  color: black;
-}
-
 
 .card {
-  text-align: center;
+  text-align: left;
   background-size: cover;
   justify-content: space-around;
   border-radius: 8px;
@@ -47,6 +45,14 @@
 
 .card:last-child {
   margin-right: 0px;
+}
+
+.more {
+  text-align: center
+}
+
+.icons {
+  text-align: left
 }
 
 // img {
