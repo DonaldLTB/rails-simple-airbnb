@@ -8,6 +8,7 @@
   <div class="cards">
   <% @flats.each do |flat| %>
     <div class="card">
+      <img src="https://source.unsplash.com/collection/15233925/800x450" alt="">
       <h5><%= flat.name %></h5>
         <td><%= flat.address %></td>
         <div class="icons"><td><i class="fas fa-user-friends"></i><%= flat.number_of_guests %> <i class="fas fa-euro-sign"></i><%= flat.price_per_night %></td></div>
